@@ -47,7 +47,8 @@ while(cur_page <= max_page):
       # print(prod_name)
       # print(prod_price)
       text = "상품명: {}, 가격: {}\n".format(prod_name, prod_price)
-      f.write(text)
+      # f.write(text)
+      print(text)
       
   cur_page += 1 # 2,
   if(cur_page > max_page):
